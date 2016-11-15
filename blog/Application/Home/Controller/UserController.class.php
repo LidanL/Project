@@ -16,4 +16,8 @@ class UserController extends Controller
 	{
 		$this->display('User/upload');
 	}
+	public  function login()
+	{
+		$this->redirect('Index/index2');
+	}
 }
